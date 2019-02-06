@@ -1,0 +1,153 @@
+
+@import "variables";
+
+
+// 4. Import UIkit.
+@import "~uikit/src/scss/uikit-theme.scss";
+
+
+* {
+   word-break: break-all;
+}
+
+.uk-logo {
+  & > img {
+    height: 48px;
+  }
+}
+
+.uk-background-white {
+  background-color: white !important;
+}
+
+.uk-height-none {
+  height:0px;
+}
+
+.uk-text-white {
+  color: white !important;
+}
+
+.uk-image-white {
+  filter: brightness(100%) invert(0%);
+}
+
+#main {
+  min-height: 80vh;
+}
+
+.uk-text-icon {
+  border: 2px solid white;
+  height: 180px;
+  width: 180px;
+  padding: 8px;
+  position: relative;
+}
+
+.uk-card-transparent{
+  background: $overlay-default-background;
+  color: #666;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.uk-min-height-small{
+  min-height: 150px;
+}
+
+.uk-height-xlarge{
+  height: 640px;
+}
+
+.uk-height-xxlarge{
+  height: 960px;
+}
+
+*[rubi] {
+  position: relative;
+  margin-bottom: 2.5em;
+  font-weight: $text-bold-font-weight;
+
+  &:after {
+    position: absolute;
+    color: #999999;
+    content: attr(rubi);
+    bottom: -1.7em;
+    left: 0px;
+    right: 0px;
+    font-size: 0.5em; 
+  }
+}
+
+.uk-button {
+  text-transform: none !important;
+}
+
+.uk-button-primary-clear{
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    color: white;
+  }
+}
+
+.uk-image-wrapper {
+  overflow: hidden;
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.uk-scroll-top {
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  & > svg {
+    height: 56px;
+  }
+}
+
+.order_asc:after {
+  content: "▲";
+}
+
+.order_desc:after {
+  content: "▼"; 
+}
+
+.uk-text-secondary {
+  color: $secondary-color;
+}
+
+.uk-pagination {
+  & > li {
+    padding: 12px;
+    border: 1px solid $dark-color;
+    margin: 8px;
+
+    & > a > span {
+      color: $dark-color;
+    }
+
+    &:hover {
+      background-color: $dark-color;
+      & > a > span {
+        color: white;
+      }
+    }
+  }
+}
+
+a.uk-card {
+  &:hover {
+    bottom: 4px;
+  }
+}

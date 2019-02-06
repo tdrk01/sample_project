@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url("../font/NotoSansCJKjp-Bold.otf") format("opentype");
+}
+
+$global-primary-background: #ff5522;
+$global-secondary-background: #333333;
+$global-muted-background: #f3f3f3;
+$lighten-primary-color: #C0C0C0;
+$lighten-primary-background: #f3f3f3;
+$global-color: #333333;
+$accent-color: #2286B0;
+$global-emphasis-color: $global-color;
+$global-danger-background: #F43333;
+$global-line-color: #00D65C;
+
+$global-pink-background: #FF2C67;
+
+$form-label-color: $global-color;
+$global-link-color: #3b99fb;
+$global-link-hover-color: darken($global-link-color, 5%);
+
+$button-text-color: $global-link-color;
+$button-text-hover-color: darken($global-link-color, 5%);
+
+$progress-bar-background: $global-link-color;
+
+$navbar-nav-item-height: 48px;
+
+$global-small-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+$global-medium-box-shadow: 0px 0px 2px 1px #EEEEEE;
+$global-large-box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+$global-xlarge-box-shadow: 0 28px 50px rgba(0, 0, 0, 0.16);
+
+$dropdown-box-shadow: $global-medium-box-shadow;
+$navbar-dropdown-box-shadow: $global-medium-box-shadow;
+
+//フォント
+$heading-primary-font-size-m: 2.25rem;
+$global-xxlarge-font-size: 1.3rem;
+$global-xlarge-font-size: 1.2rem;
+$global-large-font-size: 1.4rem;
+$global-medium-font-size: 1.0rem;
+$global-font-size: 16px;
+$global-small-font-size: 0.7rem;
+$base-small-font-size: $global-small-font-size;
+
+//マージン
+$global-xlarge-margin: 128px;
+$global-large-margin: 64px;
+$global-medium-margin: 32px;
+$global-margin: 16px;
+$global-small-margin: 8px;
+//パディング
+$global-large-gutter: 72px;
+$global-medium-gutter: 36px;
+$global-gutter: 24px;
+$global-small-gutter: 12px;
+
+
+//高さ
+$height-small-height: 120px !default;
+$height-medium-height: 240px !default;
+$height-large-height: 360px !default;
+$height-xlarge-height: 480px !default;
+
+//幅
+$width-small-width: 120px !default;
+$width-medium-width: 240px !default;
+$width-large-width: 360px !default;
+$width-xlarge-width: 480px !default;
+$width-xxlarge-width: 600px !default;
+
+
+$alert-padding: $global-gutter;
+
+$section-large-padding-vertical: 32px;
+
+
+$container-padding-horizontal: $global-gutter;
+$container-padding-horizontal-s: $global-gutter;
+$container-padding-horizontal-m: $global-large-gutter;
+
+$button-font-size: $global-font-size;
+$button-small-font-size: $global-small-font-size;
+$button-large-font-size: $global-medium-font-size;
+
+$button-padding-horizontal: $global-medium-gutter;
+$button-small-padding-horizontal: $global-gutter;
+$button-large-padding-horizontal: $global-large-gutter;
+
+$border-rounded-border-radius: 8px;
+
+$dropdown-min-width: 100px;
+$navbar-dropdown-width: 200px;
+$navbar-dropdown-margin: $global-margin;
+$navbar-dropdown-padding: $global-gutter;
+$dropdown-margin: $global-margin;
+$dropdown-padding: $global-gutter;
+
+$modal-dialog-width: 800px;
+
+$inverse-table-divider-border: #666666;
+
+$overlay-padding-horizontal: $global-small-gutter;
+$overlay-padding-vertical: $global-small-gutter;
+$overlay-primary-background: rgba(0, 0, 0, 0.4);
+
+$global-font-family: "Noto Sans Bold", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;

@@ -1,0 +1,40 @@
+
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+
+// 4. Import UIkit.
+@import "uikit/src/scss/theme/_import.scss";
+// Base
+@import "uikit/src/scss/components/variables.scss";
+@import "uikit/src/scss/components/mixin.scss";
+@import "uikit/src/scss/components/base.scss";
+
+// Element
+@import "uikit/src/scss/components/heading.scss";
+
+// Layout
+@import "uikit/src/scss/components/section.scss";
+@import "uikit/src/scss/components/container.scss";
+@import "uikit/src/scss/components/grid.scss";
+@import "uikit/src/scss/components/card.scss";
+
+// Common
+@import "uikit/src/scss/components/label.scss";
+
+// Javascript
+@import "uikit/src/scss/components/animation.scss";
+@import "uikit/src/scss/components/width.scss";
+@import "uikit/src/scss/components/text.scss";
+@import "uikit/src/scss/components/column.scss";
+@import "uikit/src/scss/components/cover.scss";
+@import "uikit/src/scss/components/background.scss";
+@import "uikit/src/scss/components/align.scss";
+@import "uikit/src/scss/components/utility.scss";
+@import "uikit/src/scss/components/flex.scss"; // After: Utility
+@import "uikit/src/scss/components/margin.scss";
+@import "uikit/src/scss/components/padding.scss";
+@import "uikit/src/scss/components/position.scss";
+@import "uikit/src/scss/components/transition.scss";
+@import "uikit/src/scss/components/visibility.scss";
+@import "uikit/src/scss/components/inverse.scss";

@@ -1,0 +1,56 @@
+@import "./_variables.scss";
+
+@import "./uikit_import.scss";
+
+
+img {
+    max-width: none;
+}
+
+.top-cover {
+  height: calc(100vh - 150px);
+}
+
+.uk-overflow-cover {
+  position: absolute;
+  margin: auto;
+  overflow: hidden;
+  width: 120%;
+  height: 100%;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+
+  & > * {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.lead_1 {
+  max-height: 60vh;
+  max-width: 40vw;
+  margin-left: 10vw;
+}
+
+.lead_2 {
+  max-height: 60vh;
+  max-width: 50vw;
+  margin-left: -10vw;
+  margin-top: 15vh;
+}
+
+.lead_center {
+  width: 20vw;
+  max-width: 150px;
+}
+
+.title-text {
+  line-height: 64px;
+}
+
+.uk-background-line {
+  background-color: $global-line-color;
+}

@@ -1,0 +1,69 @@
+$white-color: #FFFFFF;
+$light-color: #F0F0F0;
+$black-color: #333333;
+$dark-color: #666666;
+$primary-color: #FF2E00;
+$secondary-color: #323334;
+
+$danger-color: #FF5C00;
+$warning-color: #FF8C00;
+$success-color: #005935;
+$facebook-color: #4360B4;
+$star-color: #DAA520;
+$star-half-color: #FFD04C;
+$light-dark-color: #999999;
+
+$global-color: $black-color;
+$global-primary-background: $primary-color;
+$global-secondary-background: $secondary-color;
+
+$button-text-color: $primary-color;
+$button-text-hover-color: $primary-color;
+
+$label-background: $primary-color;
+$overlay-primary-background: rgba(darken($global-primary-background, 10%), 0.8) !default;
+
+$global-font-family: "Yu Gothic", YuGothic, 'メイリオ', Meiryo, Roboto, "Helvetica Neue", Arial, sans-serif;
+$base-heading-font-weight: 600;
+
+$navbar-nav-item-height: 56px;
+
+$global-medium-box-shadow: 0px 0px 2px 1px #F0F0F0;
+// $global-small-box-shadow: 0 2px 8px rgba(0,0,0,0.08) !default;
+$global-large-box-shadow: 0 4px 4px rgba(0,0,0,0.16);
+$global-xlarge-box-shadow: 0 14px 25px rgba(0,0,0,0.16);
+
+$global-xxlarge-font-size: 1.6rem;
+$global-xlarge-font-size: 1.35rem;
+$global-large-font-size: 1.20rem;
+$global-medium-font-size: 1.0rem;
+$global-font-size: 16px;
+$global-small-font-size: 0.875rem;
+
+$global-xlarge-margin: 128px;
+$global-large-margin: 64px;
+$global-medium-margin: 32px;
+$global-margin: 16px;
+$global-small-margin: 8px;
+
+$global-large-gutter: 48px;
+$global-medium-gutter: 24px;
+$global-gutter: 18px;
+$global-small-gutter: 12px;
+
+$subnav-margin-horizontal: $global-small-margin;
+
+$tab-item-active-color: $primary-color;
+
+$overlay-padding-horizontal: $global-small-gutter;
+$overlay-padding-vertical: $global-small-gutter;
+
+
+// 2. Import default variables and available mixins.
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+
+
+
+$modal-header-padding-vertical: $modal-header-padding-horizontal;
+$section-muted-background: $light-color;
